@@ -34,3 +34,6 @@ This is a functional e-commerce application that lets you select a product of yo
 ### Working of the app
 
 Firstly, a user needs to sign up for the app. On the startup page, there are various products. If a user liked that product click on **Add to Basket**. Then the user will select the products that he/she likes to buy and then click on the **top left cart icon** to open the cart. In the cart, user will see your products and the total amount to be paid. A user can **remove any item** and can proceeds further to checkout. At the checkout page, user will see the total products, total amount, and the products that a user is going to buy.
+
+
+**Also if you liked the project give it a star.**
