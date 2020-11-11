@@ -12,6 +12,7 @@ This is a functional e-commerce application that lets you select a product of yo
 2. Now move into the project directory - `cd expend`
 3. First install all the dependencies used in this project - `npm install`
 4. Now, all the required dependencies are installed. Run the project on your local server by - `npm start`
+
    **Now your app will start on http://localhost:3000/**
 
 ### Working Screenshot
