@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+<h1 align='center'>Expend</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center'><img src='https://raw.githubusercontent.com/pranjals149/acevent/75eed4a1a0a65bdde48eddf5e5c061fca26b3934/expend/expend.svg' height=400 width=400 /></p>
 
-## Available Scripts
+### Description
 
-In the project directory, you can run:
+This is an functional e-commerce application which lets you to select a product of your choice, add it to your cart, proceed to checkout. It further allows the users to remove the item from the cart at any point before final payment. It also displays the total amount in **INR** to be paid.
 
-### `npm start`
+### Setup on local system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone this repository
+2. Now move into the project directory - `cd expend`
+3. First install all the dependencies used in this project - `npm install`
+4. Now, all the required dependencies are installed. Run the project on your local server by - `npm start`
+   **Now your app will start on http://localhost:3000/**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Working Screenshot
 
-### `npm test`
+<img src='./Expend.gif' />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Dependencies used
 
-### `npm run build`
+1. Material-UI
+2. Stripe-js
+3. React-stripe-js
+4. axios
+5. firebase
+6. react-currency-format
+7. React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Working of the app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Firstly, a user need to sign up to the app. On the startup page, there are various products. If a user liked that product click on **Add to Basket**. Select various products that you like to buy and then click on the top left cart icon to open the cart. In the cart, you will see your products and the total amount to be paid. A user **remove any item** and proceed further to checkout. At the checkout page you will see the total products, total amount and the products that a user is going to buy.
