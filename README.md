@@ -4,11 +4,11 @@
 
 ### Description
 
-This is an functional e-commerce application which lets you to select a product of your choice, add it to your cart, proceed to checkout. It further allows the users to remove the item from the cart at any point before final payment. It also displays the total amount in **INR** to be paid.
+This is a functional e-commerce application that lets you select a product of your choice, add it to your cart, proceed to checkout. It further allows the users to remove the item from the cart at any point before the final payment. It also displays the total amount in **INR** to be paid.
 
-### Setup on local system
+### Setup on the local system
 
-1. Clone this repository
+1. Clone this repository - ```git clone https://github.com/pranjals149/Expend.git```
 2. Now move into the project directory - `cd expend`
 3. First install all the dependencies used in this project - `npm install`
 4. Now, all the required dependencies are installed. Run the project on your local server by - `npm start`
@@ -23,11 +23,11 @@ This is an functional e-commerce application which lets you to select a product 
 1. Material-UI
 2. Stripe-js
 3. React-stripe-js
-4. axios
+4. Axios
 5. firebase
 6. react-currency-format
 7. React
 
 ### Working of the app
 
-Firstly, a user need to sign up to the app. On the startup page, there are various products. If a user liked that product click on **Add to Basket**. Select various products that you like to buy and then click on the top left cart icon to open the cart. In the cart, you will see your products and the total amount to be paid. A user **remove any item** and proceed further to checkout. At the checkout page you will see the total products, total amount and the products that a user is going to buy.
+Firstly, a user needs to sign up for the app. On the startup page, there are various products. If a user liked that product click on **Add to Basket**. Then the user will select the products that he/she likes to buy and then click on the **top left cart icon** to open the cart. In the cart, user will see your products and the total amount to be paid. A user can **remove any item** and can proceeds further to checkout. At the checkout page, user will see the total products, total amount, and the products that a user is going to buy.
